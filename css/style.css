@@ -7,10 +7,12 @@
 
 html {
     font-size: 62.5%;
+    color: hsl(212, 21%, 14%);
 }
 
 h1 {
     font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
 }
 
 p {
@@ -27,26 +29,49 @@ a:active {
 }
 
 /* BUTTON */
-.btn {
+/* .btn {
     border: none;
-}
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    padding: 2em 1em;
+    margin-bottom: 10em;
+} */
 
 /* CARD */
 .card {
     background-color: #fff;
-    border-radius: 40px;
+    border-radius: 20px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .card__header {
-    /* background-image: url("../images/image-product-mobile.jpg"); */
+    background-image: url("../images/image-product-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
 }
 
 .card__body {
     padding: 2em;
 }
 
+.category {
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width: 375px) {
+    .card__header{
+        height: 300px;
+    }
+    
+}
+
 /* SECTION */
 .main {
     background-color: 	#f2ebe3;
+    padding: 5em 0;
 }
