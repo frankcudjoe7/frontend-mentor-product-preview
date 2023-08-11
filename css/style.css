@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+/* LINKS */
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn {
+    border: none;
+}
+
+/* CARD */
+.card {
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.card__header {
+    /* background-image: url("../images/image-product-mobile.jpg"); */
+}
+
+.card__body {
+    padding: 2em;
+}
+
+/* SECTION */
+.main {
+    background-color: 	#f2ebe3;
+}
